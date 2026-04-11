@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICM</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/stylesBody.css">
+    <link rel="stylesheet" href="./styles/stylesIcm.css">
+</head>
+<body>
+     <header>    
+        <nav class="navbar">
+            <div class="logo">Kit de Herramientas</div>
+            <ul class="nav_links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./indexIcm.html">ICM</a></li>
+                <li><a href="./indexFormularioRepaso.html">Formulario Repaso</a></li>
+                <li><a href="./indexCalculadora.html">Calculadora con Historial</a></li>
+                <li><a href="./indexTareas.html">Administrador de Tareas</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="contenedor">
+      <h1>Calculadora del ICM</h1>
+      <img src="" id="img">
+      <input type="number" id="peso" placeholder="Peso"> <span> Kg</span>
+      <input type="number" id="altura" placeholder="Altura"><span> Metros</span>
+      <button onclick="icm()">Calcular</button>
+      <p id="resultado">Resultado</p>
+      <p id="descripcion"></p>
+  </div>
+
+  <script src="./script/scriptICM.js"></script>
+</body>
+</html>

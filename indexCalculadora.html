@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con Historial</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/stylesCalculadora.css">
+</head>
+<body>
+  <header>    
+        <nav class="navbar">
+            <div class="logo">Kit de Herramientas</div>
+            <ul class="nav_links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./indexIcm.html">ICM</a></li>
+                <li><a href="./indexFormularioRepaso.html">Formulario Repaso</a></li>
+                <li><a href="./indexCalculadora.html">Calculadora con Historial</a></li>
+                <li><a href="./indexTareas.html">Administrador de Tareas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <section class="contenedor">
+            <h1>SuperCalculadora</h1>
+            <p id="resultado" class="resultado">0</p>
+            <input type="number" id="numero1" class="caja1" placeholder="Ingresa un Número" required>
+            <input type="number" id="numero2" class="caja2" placeholder="Ingresa un Número" required>
+            <div class="seleccion">
+                <select id="operacion">
+                    <option value="+">Sumar</option>
+                    <option value="-">Restar</option>
+                    <option value="*">Multiplicar</option>
+                    <option value="/">Dividir</option>
+                    
+                </select>
+            </div>
+            <div class="botones">
+                <button class="btn_calcular" id="btn_calcular">Calcular</button>
+                <button class="limpiar" id="limpiar">C</button>
+            </div>
+            
+        </section>
+        
+         <section class="historial">
+                <span class="tituloHistorial">Historial</span>
+                <div class="con_hist" id="con_hist">
+
+                </div>
+            </section>
+    </div>
+   
+    <script src="./script/scriptCalculadora.js"></script>
+</body>
+</html>

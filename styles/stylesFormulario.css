@@ -1,0 +1,50 @@
+
+.gris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 221, 221);
+    min-height: 350px;
+    min-width: 450px;
+    margin-bottom:4%;
+
+
+}
+.blanco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    min-height: 200px;
+    min-width: 400px;
+    gap:1px;
+    flex-direction: column;
+    padding: 6px 0 6px 0;
+    
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    width: 300px;
+    padding: 6px;
+    transition: 3s;
+}
+button:hover{
+    background-color: rgb(228, 221, 221);
+    color: black;
+    cursor: pointer;
+}
+input{
+     width: 300px;
+     padding: 5px;
+     transition: 3s;
+}
+input:hover{
+    background-color: rgb(230, 245, 209);
+    color: black;
+    cursor: pointer;
+}
+span{
+    width: 100%;
+    margin-left: 22%;
+}

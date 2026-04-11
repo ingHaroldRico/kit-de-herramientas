@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/stylesBody.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/stylesTareas.css">
+</head>
+<body>
+     <header>    
+        <nav class="navbar">
+            <div class="logo">Kit de Herramientas</div>
+            <ul class="nav_links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./indexIcm.html">ICM</a></li>
+                <li><a href="./indexFormularioRepaso.html">Formulario Repaso</a></li>
+                <li><a href="./indexCalculadora.html">Calculadora con Historial</a></li>
+                <li><a href="./indexTareas.html">Administrador de Tareas</a></li>
+        </nav>
+    </header>
+
+    <main> 
+        <section>
+            <input id="tarea" type="text" placeholder="Nueva Tarea" >
+            <button id="btn-agregar">Agregar Tarea</button>
+        </section>
+        <section>
+            <div class="caja" id="caja"></div>
+            <div class="conteo"><span id="total">0 Total</span><span id="completadas">0 Completadas</span></div>
+        </section>
+    </main>
+    <script src="./script/scriptTareas.js"></script>
+</body>
+
+</html>
