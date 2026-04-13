@@ -27,7 +27,7 @@ body{
     justify-items: center;
     color: white;
     width: 100%;
-    gap: 30px;
+    gap: 70px;
 
 }
 .advertencia{
@@ -43,7 +43,7 @@ body{
 }
 .caja{
     border: 3px solid white;
-    height: 200px;
+    height: 150px;
     max-width: 400px;
     padding: 5px;
     overflow-y: auto;
