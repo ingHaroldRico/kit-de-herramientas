@@ -23,10 +23,11 @@ body{
 .conteo{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     justify-items: center;
     color: white;
     width: 100%;
+    gap: 30px;
 
 }
 .advertencia{
