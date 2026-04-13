@@ -4,9 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(228, 221, 221);
-    min-height: 300px;
-    min-width: 300px;
-    margin-bottom:4%;
+ 
+    
 
 
 }
@@ -15,8 +14,8 @@
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    min-height: 230px;
-    min-width: 270px;
+    min-height: 180px;
+    min-width: 220px;
     gap:0px;
     flex-direction: column;
     padding: 0px;
