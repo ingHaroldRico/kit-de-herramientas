@@ -6,9 +6,8 @@ main{
     background-color: black;
     color: white;
     border: 5px solid rgb(80, 57, 109);
-    height: 70vh;
-    width: 99%;
-    margin-bottom: 20px;
+    height: 60vh;
+    width: 100%;
     border: 5px solid white;
     border-radius: 10px;
 }

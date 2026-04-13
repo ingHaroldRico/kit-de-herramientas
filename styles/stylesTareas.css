@@ -4,6 +4,7 @@ body{
 
    
     background: linear-gradient(to left, blue, orange);
+    overflow: hidden;
     
 
 }
@@ -43,13 +44,11 @@ body{
 }
 .caja{
     border: 3px solid white;
-    height: 150px;
+    height: 100px;
     max-width: 400px;
-    padding: 5px;
+    padding: 1px;
     overflow-y: auto;
     min-width: 200px;
-
-
 }
 section {
     display: flex;
