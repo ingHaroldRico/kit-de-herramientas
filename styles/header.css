@@ -9,7 +9,7 @@
 }
 .logo{
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     background-color: black;
 }
@@ -39,7 +39,7 @@ header{
     z-index: 10;
     background: rgba(0, 0, 0, 5);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 9px;
     width: 100%;
     padding:3px;
     margin: 0;
