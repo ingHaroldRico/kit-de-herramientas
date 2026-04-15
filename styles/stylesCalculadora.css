@@ -1,22 +1,16 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
     gap: 0px;
+    justify-content: flex-start;
     background: linear-gradient(to left , rgb(190, 114, 114), red);
-    margin: 0;
     padding: 0;
+    margin-bottom: 200px;
     height: 100vh;
     width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
-   
-    
-   
-   
-    
+     
 }
 .principal{
     display: flex;
