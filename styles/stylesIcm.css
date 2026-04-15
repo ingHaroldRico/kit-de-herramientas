@@ -36,6 +36,7 @@ button{
 input{
     border-radius: 20px;
     text-align: center;
+    width: 90px;
 }
 img{
     max-width: 130px;
