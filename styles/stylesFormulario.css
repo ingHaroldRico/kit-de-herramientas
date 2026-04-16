@@ -14,11 +14,11 @@
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    min-height: 180px;
-    min-width: 220px;
+    max-height: 250px;
+    max-width: 350px;
     gap:0px;
     flex-direction: column;
-    padding: 0px;
+    padding: 10px;
     
     
 }
@@ -35,7 +35,7 @@ button:hover{
     cursor: pointer;
 }
 input{
-     width: 200px;
+     width: 90%;
      padding: 5px;
      transition: 3s;
 }
@@ -45,6 +45,6 @@ input:hover{
     cursor: pointer;
 }
 span{
-    width: 90%;
+    width: 100%;
     margin-left: 22%;
 }
