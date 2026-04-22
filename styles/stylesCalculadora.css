@@ -11,7 +11,7 @@ body{
     align-items: flex-start;
     gap: 0px;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 80px;
    
 }
 .contenedor{
@@ -41,7 +41,7 @@ input{
     align-items: center;
     border: 1px solid rgb(52, 9, 9);
     width: 200px;
-    height: 40px;
+    height: 80px;
     background-color: rgb(162, 202, 212);
     overflow-y: auto;
     color: rgb(3, 39, 70);
