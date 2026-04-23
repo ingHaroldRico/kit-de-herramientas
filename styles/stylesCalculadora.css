@@ -24,7 +24,7 @@ body{
     color: rgb(248, 219, 219);
     border: 4px inset rgb(106, 0, 0);
     min-height: 100px;
-    gap:0;  
+    gap: 3px;
 }
 
 input{
