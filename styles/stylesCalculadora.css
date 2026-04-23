@@ -66,7 +66,6 @@ input{
     border-radius: 8px;
     padding: 3px;
     font-width: 6px;
-    margin-bottom: 3px;
     font-size: 15px;
     transition: 0.3s; /* Suaviza el cambio */
 }
@@ -87,35 +86,21 @@ select{
     width: 200px;
     color: rgb(1, 78, 20);
 }
-.con_hist{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
 
-}
-.con_histaux{
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5px;
-}
-.limpiar{
+.btn_limpiar{
     color: rgb(230, 230, 233);
     background-color: blue ;
-    padding: 5px;
-    border-radius: 5px;
-    font-width: 9px;
-    font-size: 18px;
+    padding: 3px;
+    border-radius: 5px;;
+    font-size: 15px;
     transition: 0.3s; /* Suaviza el cambio */
 }
 .botones{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    align-items: center;
-    gap: 30px;
-    
-
+    gap: 10px;
+    margin: 3px 0px;
 }
 
 
