@@ -1,19 +1,10 @@
 
-.gris{
+
+.fondo{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(228, 221, 221);
- 
-    
-
-
-}
-.blanco{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(65, 115, 159);
     max-height: 250px;
     max-width: 350px;
     gap:0px;
