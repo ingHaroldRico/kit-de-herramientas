@@ -38,7 +38,11 @@ button{
 input{
     border-radius: 20px;
     text-align: center;
-    width: 90px;
+    width: 50px;
+}
+.inputs{
+    display: flex;
+    gap: 4px;
 }
 img{
     max-width: 100px;
