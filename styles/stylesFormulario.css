@@ -17,7 +17,7 @@ button{
     background-color: blue;
     color: antiquewhite;
     width: 100px;
-    padding: 2px;
+    padding: 5px;
     transition: 3s;
 }
 button:hover{
