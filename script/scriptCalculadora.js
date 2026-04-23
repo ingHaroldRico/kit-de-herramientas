@@ -72,6 +72,7 @@ function calcular(){
     aux.appendChild(n2)
     aux.appendChild(igual)
     aux.appendChild(r)
+
     aux.className="con_histaux"
 
     historial.appendChild(aux)
